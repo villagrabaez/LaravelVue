@@ -4,6 +4,6 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>AdminLTE 3 | Starter</title>
+  <title>{{ config('app.name', 'Laravel') }}</title>
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>

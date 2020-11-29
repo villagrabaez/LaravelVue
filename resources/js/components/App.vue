@@ -27,14 +27,12 @@
 <script>
   import Navbar from './layout/Navbar';
   import Sidebar from './layout/Sidebar';
-  import Content from './layout/Content';
   import Footer from './layout/Footer';
   export default {
     props: ['ruta'],
     components: {
       Navbar,
       Sidebar,
-      Content,
       Footer,
     }
   }
