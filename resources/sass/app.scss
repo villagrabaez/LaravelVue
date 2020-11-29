@@ -13,3 +13,8 @@ $fa-font-path: "../webfonts";
 @import '~bootstrap/scss/bootstrap';
 // AdminLTE styles
 @import '~admin-lte/dist/css/adminlte.css';
+
+.router-link-exact-active {
+  background-color: #007BFF;
+  color: #FFF !important;
+}

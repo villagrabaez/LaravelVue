@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/{optional?}', function () {
+    return view('layouts.master');
 })->name('basepath');
 
 Auth::routes();

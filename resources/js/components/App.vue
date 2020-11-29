@@ -1,23 +1,26 @@
 <template>
   <div>
+    <Navbar :ruta='ruta'></Navbar>
 
-  <Navbar :ruta='ruta'></Navbar>
+    <Sidebar :ruta='ruta'></Sidebar>
 
-  <Sidebar :ruta='ruta'></Sidebar>
-
-  <Content></Content>
-
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-    <div class="p-3">
-      <h5>Title</h5>
-      <p>Sidebar content</p>
+    <div class="content-wrapper">
+      <transition name="slide-fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
     </div>
-  </aside>
-  <!-- /.control-sidebar -->
 
-  <Footer></Footer>
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+      <div class="p-3">
+        <h5>Title</h5>
+        <p>Sidebar content</p>
+      </div>
+    </aside>
+    <!-- /.control-sidebar -->
+
+    <Footer></Footer>
   </div>
 </template>
 

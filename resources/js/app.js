@@ -27,6 +27,9 @@ Vue.component('App', require('./components/App.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import router from './routes';
+
 const app = new Vue({
     el: '#app',
+    router,
 });

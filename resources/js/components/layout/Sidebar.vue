@@ -28,12 +28,12 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="user-panel pb-3 mb-3 nav-item">
-            <a href="#" class="nav-link active">
+            <router-link to="/" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
-            </a>
+            </router-link>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
@@ -45,16 +45,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/pedidos" class="nav-link">
                   <i class="nav-icon fas fa-cash-register"></i>
                   <p>Pedidos</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/clientes" class="nav-link">
                   <i class="nav-icon fas fa-user-friends"></i>
                   <p>Clientes</p>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -68,16 +68,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/categorias" class="nav-link">
                   <i class="nav-icon fas fa-sitemap"></i>
                   <p>Categorias</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/productos" class="nav-link">
                   <i class="nav-icon fas fa-apple-alt"></i>
                   <p>Productos</p>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -91,22 +91,22 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/usuarios" class="nav-link">
                   <i class="nav-icon fas fa-users"></i>
                   <p>Usuarios</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/roles" class="nav-link">
                   <i class="nav-icon fas fa-unlock-alt"></i>
                   <p>Roles</p>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/permisos" class="nav-link">
                   <i class="nav-icon fas fa-key"></i>
                   <p>Permisos</p>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -120,10 +120,10 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/reportes" class="nav-link">
                   <i class="nav-icon fas fa-file-export"></i>
                   <p>Pedidos</p>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
